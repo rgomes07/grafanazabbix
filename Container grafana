@@ -1,3 +1,4 @@
+
 Executando o container do Grafana (grafana/grafana)
 
 O que é o Grafana:
@@ -10,7 +11,7 @@ Inicie o docker container bindando a porta 3000 do host com a porta 3000 no cont
 
 docker run -d --name grafana -p 3000:3000 grafana/grafana
 
-Após subir o container acesse seu docker host na porta 3000,
+Após subir o container acesse seu docker host na porta 3000.
 A credencial padrão do grafana é admin/admin
 Fonte: Docker Hub
 
@@ -24,6 +25,3 @@ Execute o comando no container:
 grafana-cli plugins install alexanderzobnin-zabbix-app
 
 Confira na aplicação do grafana se o plugin esta disponível para criar um datastore e configurar seus graficos.
-
-
-
