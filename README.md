@@ -1,7 +1,11 @@
 GRAFANA
+![grafanagraf](https://user-images.githubusercontent.com/91737184/151594520-54cac49b-c935-4805-a06c-7f2b60778f93.png)
 
-![grafaimg](https://user-images.githubusercontent.com/91737184/151592892-5e2e6213-d4d0-46e8-861b-6d88b4187e05.jpeg)
 
+
+Descrição do projeto
+
+Este projeto tem como finalidade implantar o grafana com plugin do zabbix para gerar gráficos mais robustos e visualmente mais bonitos.
 
 Deploy container docker grafana:
 
