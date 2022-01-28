@@ -11,3 +11,12 @@ Deploy container docker grafana:
 
 - Container imagem grafana
 - Grafana plugin zabbix
+
+Tecnologias utilizadas:
+
+- Docker
+- Swarm
+- Zabbix
+- Grafana
+- Zabbix agent
+- Linux
