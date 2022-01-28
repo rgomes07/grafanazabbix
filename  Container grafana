@@ -1,0 +1,29 @@
+Executando o container do Grafana (grafana/grafana)
+
+O que é o Grafana:
+
+Grafana é uma aplicação web de análise de código aberto multiplataforma e visualização interativa da web. Ele fornece tabelas, 
+gráficos e alertas para a Web quando conectado a fontes de dados suportadas. É expansível através de um sistema de plug-in. 
+Fonte: Wikipédia
+
+Inicie o docker container bindando a porta 3000 do host com a porta 3000 no container.
+
+docker run -d --name grafana -p 3000:3000 grafana/grafana
+
+Após subir o container acesse seu docker host na porta 3000,
+A credencial padrão do grafana é admin/admin
+Fonte: Docker Hub
+
+Instalando o plugin do zabbix no grafana (grafana-cli):
+
+Acesse o container do grafana:
+
+docker exec -ti grafana /bin/bash
+
+Execute o comando no container: 
+grafana-cli plugins install alexanderzobnin-zabbix-app
+
+Confira na aplicação do grafana se o plugin esta disponível para criar um datastore e configurar seus graficos.
+
+
+
