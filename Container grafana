@@ -25,3 +25,4 @@ Execute o comando no container:
 grafana-cli plugins install alexanderzobnin-zabbix-app
 
 Confira na aplicação do grafana se o plugin esta disponível para criar um datastore e configurar seus graficos.
+
